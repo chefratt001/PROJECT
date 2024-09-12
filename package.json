@@ -1,0 +1,24 @@
+{
+    "name": "webs-app-miniproj",
+    "version": "1.0.0",
+    "main": "Mongoose.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "express": "^4.20.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.6.0",
+        "socket.io": "^4.7.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
